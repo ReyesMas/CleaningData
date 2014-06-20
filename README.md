@@ -100,16 +100,16 @@ At the end of script execution the following "R" objects will be available in th
 #### Data frame "activityLabels"
 The links between class labels and activity names.
 
-'data.frame':    6 obs. of  2 variables:
- $ activity_id  : int  1 2 3 4 5 6
- $ activity_name: Factor w/ 6 levels "LAYING","SITTING",..: 4 6 5 2 3 1
+    'data.frame':    6 obs. of  2 variables:
+    $ activity_id  : int  1 2 3 4 5 6
+    $ activity_name: Factor w/ 6 levels "LAYING","SITTING",..: 4 6 5 2 3 1
  
 #### Data frame "features"
 The features list.
 
-'data.frame':    561 obs. of  2 variables:       
- $ feature_id  : int  1 2 3 4 5 6 7 8 9 10 ...      
- $ feature_name: chr  "tBodyAcc-mean()-X" "tBodyAcc-mean()-Y" "tBodyAcc-mean()-Z" "tBodyAcc-std()-X" ...      
+    'data.frame':    561 obs. of  2 variables:       
+    $ feature_id  : int  1 2 3 4 5 6 7 8 9 10 ...      
+    $ feature_name: chr  "tBodyAcc-mean()-X" "tBodyAcc-mean()-Y" "tBodyAcc-mean()-Z" "tBodyAcc-std()-X" ...      
  
      
 #### Data frame "WholeData"
